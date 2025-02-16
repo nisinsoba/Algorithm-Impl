@@ -1,5 +1,5 @@
 
-def ex_euc(a: int, b: int):
+def ex_euc(a: int, b: int) -> tuple[int, int, int]:
     x, xx, y, yy = 0, 1, 1, 0
     if b == 0: 
         x, y, b = 1, 0, a

@@ -1,5 +1,5 @@
 
-def euclid(a: int, b: int):
+def euclid(a: int, b: int) -> int:
     while b:
         a, b = b, a % b
     if a < 0: 
